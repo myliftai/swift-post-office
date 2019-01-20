@@ -4,7 +4,7 @@ An internal message bus to be used in swift applicaitons.
 
 The post office allows objects to be posted between modules of code.
 
-## Implementing the post box protocol. 
+## Implementing the post box protocol
 
 To register a module with the post office the post box protocol needs to be implemented.
 ```swift
@@ -24,7 +24,8 @@ To subscribe to receive a type of object the post box protocol needs to be imple
 ```swift
 class ViewController: UIViewController, PostBox {
   override func viewDidLoad() {
-		super.viewDidLoad()
+    
+    super.viewDidLoad()
     postOffice.subscribe(postBox: self, objectType: MyParcel.self)
     
     ...
