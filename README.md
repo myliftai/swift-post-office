@@ -47,7 +47,7 @@ The post office will then ensure that any objects published of type MyParcel are
 
 ### Registering an address with the post office
 
-To register specific addresses the post box protocol needs to be implemented as above. Then an address needs to be registered with the post office. 
+To register specific addresses the post box protocol needs to be implemented as above. Then an address can be registered with the post office. 
 ```swift
   postOffice.register(postBox: self, address: "myuniqueaddress")
 ```
