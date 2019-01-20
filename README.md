@@ -1,6 +1,6 @@
 # swift-post-office
 
-An internal message bus to be used in swift applicaitons. 
+An extreamly light weight and super fast internal message bus that implements both publish/subscirbe and sending messages directly to a specific receipiant. The library is aprox 40 lines of code. 
 
 The post office allows objects to be posted between modules of code.
 
